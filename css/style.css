@@ -1,0 +1,136 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    
+    height:100vh;
+    background: url('../images/bgaleena.jpeg');
+    background-size:cover;
+    position:relative;
+    opacity: 0.6;
+}
+#about{
+    height:100vh;
+    background: url('../images/Aboutbg.jpg');
+    background-repeat: repeat-y repeat-x;
+    background-size:cover;
+    position:relative;
+    opacity: 1;
+}
+#paraabout{
+    font-size: 25px;
+}
+#education{
+    height:100vh;
+    background: url('../images/educationalbg.jpg');
+    background-repeat: repeat-y repeat-x;
+    background-size:cover;
+    position:relative;
+    opacity: 1; 
+    font-size: larger;
+    
+}
+#contact{
+   
+        height:100vh;
+        background: url('../images/regbg1.jpg');
+        background-repeat: repeat-y repeat-x;
+        background-size:cover;
+        position:relative;
+        opacity: 1; 
+
+}
+li:hover{
+    background-color: aqua;
+}
+#registered{  height:100vh;
+    background: url('../images/regbg1.jpg');
+    background-repeat: repeat-y repeat-x;
+    background-size:cover;
+    position:relative;
+    opacity: 1; }
+#skills{height:100vh;
+    background: url('../images/skillsbg.jpg');
+    background-repeat: repeat-y repeat-x;
+    background-size:cover;
+    position:relative;
+    opacity: 1;
+        
+    }
+#works{height:100vh;
+    background: url('../images/workbg.jpg');
+    background-repeat: repeat-y repeat-x;
+    background-size:cover;
+    position:relative;
+    opacity: 1;
+
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    text-shadow: 1rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: 400;
+
+}
+.about{
+    font-size: larger;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 350px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fas fa-envelope-square:hover,.fa-linkedin:hover {
+    color: #008000;
+}
+.fab ,.fas {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+    
+}
