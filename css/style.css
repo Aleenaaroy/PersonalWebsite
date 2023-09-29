@@ -4,7 +4,7 @@
 }
 
 /* hero background image */
-.bgimage {
+.home-inner {
     
     height:100vh;
     background: url('../images/bgaleena.jpeg');
@@ -13,7 +13,7 @@
     opacity: 0.6;
 }
 #about{
-    height:100vh;
+    height:100%;
     background: url('../images/Aboutbg.jpg');
     background-repeat: repeat-y repeat-x;
     background-size:cover;
@@ -24,7 +24,7 @@
     font-size: 25px;
 }
 #education{
-    height:100vh;
+    height:100%;
     background: url('../images/educationalbg.jpg');
     background-repeat: repeat-y repeat-x;
     background-size:cover;
